@@ -1,6 +1,6 @@
 # Training Management System - Backend
 
-This repository contains the **backend API** for the Training Management System, a comprehensive platform for managing training programs, participants, instructors, and educational content.
+This repository contains the **backend Implementation** for the Training Management System, a comprehensive platform for managing training programs, participants, instructors, and educational content.
 
 ## Overview
 
@@ -60,7 +60,6 @@ The Training Management System backend is built with **Spring Boot** and provide
 ### Authentication
 - `POST /api/auth/signin` - User login
 - `POST /api/auth/signup` - User registration
-- `POST /api/auth/sign-out` - User logout
 
 ### User Management
 - `GET /api/participants` - List all participants
@@ -94,9 +93,6 @@ The Training Management System backend is built with **Spring Boot** and provide
    ```bash  
    ./mvnw spring-boot:run  
    ```  
-
-4. **API Documentation**
-    - Access Swagger UI at `http://localhost:8080/swagger-ui.html`
 
 ## Contributing
 
